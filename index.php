@@ -17,7 +17,8 @@ Stampiamo delle card contenenti i dettagli dei prodotti, come immagine, titolo, 
 
 require __DIR__ . "/Modals.php/Category.php";
 require __DIR__ . "/Modals.php/Product.php";
+require __DIR__ . "/Modals.php/Type.php";
 
 
-$product = new Product('baubau', 'http', 20, new Category('Cane'));
+$product = new Product('baubau', 'http', 20, new Category('Cane'), new Type('Cibo'));
 var_dump($product);

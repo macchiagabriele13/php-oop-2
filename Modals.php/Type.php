@@ -2,10 +2,9 @@
 
 
 
-class Category
+class Type
 {
     public $type;
-    public $icon;
 
     public function __construct(String $type)
     {
